@@ -6,5 +6,10 @@ module Rails
 			template 'ak-stylesheet.css', 'public/stylesheets/ak-stylesheet.css'
 			puts "Stylesheet created!"
 		end
+		
+		def add_fontsize
+	    append_file 'public/stylesheets/ak-stylesheet.css', 'p {font-size: 12px;}'
+			puts "Fontsize defined!"
+	  end
   end
 end
