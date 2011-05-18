@@ -1,5 +1,5 @@
 class StaticController < ActionController::Base
   def show
-    render :file => params[:controller] + "/" + params[:id]
+    render :template => "static/" + params[:id]
   end
 end
