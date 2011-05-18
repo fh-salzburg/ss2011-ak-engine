@@ -1,0 +1,10 @@
+body {
+  font-family: Tahoma, Arial;
+}
+h1 {
+  color: #00f;
+  text-transform: uppercase;
+}
+p {
+  letter-spacing: 1px;
+}
