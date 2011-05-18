@@ -9,8 +9,8 @@ module Rails
 		end
 		
 		def add_fontsize
-	    append_file "public/stylesheets/ak-stylesheet.css", "p {color: #{options.color};}"
-			puts "Fontsize defined!"
+      append_file "public/stylesheets/ak-stylesheet.css", "p {color: #{options.color};}"
+      puts "Color defined!"
 	  end
   end
 end
